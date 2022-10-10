@@ -1,0 +1,23 @@
+title = "BLOCKCHAIN CONFIG"
+
+[Network]
+    Type="channel"
+    CAFile="assets/sdk_ca/ca.crt"
+    Cert="assets/sdk_ca/sdk.crt"
+    Key="assets/sdk_ca/sdk.key"
+    NodeURL=""
+
+    RpcNodeURL="http://10.100.244.100:1234/rpc/v0"
+#RpcNodeURL="/ip4/10.100.244.100/tcp/1234"
+    GroupID=1
+
+[Account]
+    KeyFile="assets/contract/*.pem"
+
+[Chain]
+    ChainID=1
+    SMCrypto=false
+
+[Contract]
+    Address=""
+

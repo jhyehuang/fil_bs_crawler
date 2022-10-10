@@ -1,0 +1,22 @@
+title = "MARS CONFIG"
+
+
+[jsonrpc]
+    path = "/jsonrpc"
+    address = "0.0.0.0:8999"
+
+[logger]
+    FileName = "logs/mars-web.log"
+    MaxSize = 100
+    MaxBackups = 5
+    MaxAge = 10
+    Compress = true
+
+[db]
+#    type = "sqlite"
+    type = "mysql"
+    user = "mall_user"
+    pwd = "Mall"
+    ip = ""
+    port = "3306"
+    name = "mall"
