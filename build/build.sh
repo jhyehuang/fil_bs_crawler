@@ -24,6 +24,9 @@ echo "build mint start"
 
 echo "cd $rootPath/cmd/mint ..."
 cd $rootPath/cmd/mint
+git submodule init    #  初始化子项目
+git submodule update  # 对子项目获取远程项目中最新的状态
+make -C extern/filecoin-ffi
 go build -o $rootPath/_deploy/mars-mint .
 echo "build mint end"
 echo "***************************************"

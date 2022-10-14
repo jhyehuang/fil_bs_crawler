@@ -7,8 +7,8 @@ title = "BLOCKCHAIN CONFIG"
     Key="assets/sdk_ca/sdk.key"
     NodeURL=""
 
-    RpcNodeURL="http://10.100.244.100:1234/rpc/v0"
-#RpcNodeURL="/ip4/10.100.244.100/tcp/1234"
+#    RpcNodeURL="http://10.100.244.100:1234/rpc/v0"
+    RpcNodeURL="http://10.7.1.8:1234/rpc/v0"
     GroupID=1
 
 [Account]
